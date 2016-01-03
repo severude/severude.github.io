@@ -1,0 +1,101 @@
+body {
+    background: no-repeat;
+    background-image: linear-gradient(blue 0%, white 25%);
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin: 15px 0;
+    font-weight: normal;
+    font-size: 2.0em;
+    color: #fff;
+}
+h2 {
+    margin: -5px 0 0;
+    font-weight: normal;
+    font-size: 1.0em;
+    color: #fff;
+}
+.logo {
+    text-align: center;
+}
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.intro {
+    text-align: center;
+}
+.comment {
+    margin: 5%;
+    padding: 5%;
+    color: #444;
+    font-size: 1em;
+}
+.my-buttons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.my-buttons li {
+    float: left;
+    width: 35%;
+    margin: 5% 7.5%;
+}
+.my-buttons a {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    text-shadow: 0 1px black;
+    border-radius: 6px;
+    color: whitesmoke;
+    border-color: black;
+    background-image: linear-gradient(blue 0%, blue 35%, white 100%);
+    box-shadow: inset 0 0 10px grey;
+}
+.my-buttons a:hover {
+    color: blue;
+    background: whitesmoke;
+}
+.footer {
+    margin 5%;
+    padding: 5%;
+    color: grey;
+    font-size: .75em;
+    text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+    .my-buttons li {
+        font-size: 1em;
+    }
+    .my-buttons li:nth-child(2n + 1) {
+        clear: left;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .my-buttons li {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .my-buttons li {
+        font-size: 1.15em;
+        width: 23.333333%;
+        margin: 5% 5%;
+    }
+    .my-buttons li:nth-child(3n + 1) {
+        clear: left;
+    }
+}
