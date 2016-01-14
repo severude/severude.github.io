@@ -67,6 +67,7 @@ h2 {
     background: whitesmoke;
 }
 .footer {
+    clear: left;
     margin 5%;
     padding: 5%;
     color: grey;
