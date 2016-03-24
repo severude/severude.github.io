@@ -1,25 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: no-repeat;
-    background-image: linear-gradient(blue 0%, white 25%);
     font-family: 'Open Sans', sans-serif;
 }
 header {
-    width: 100%;
-    float: left;
-    margin-bottom: 50px;
+    margin: 0 auto;
     text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    background: no-repeat;
+    background-image: linear-gradient(blue 0%, blue 10%, white 100%);
 }
 a {
     text-decoration: none;
 }
 h1 {
-    margin: 15px 0;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 8px;
     font-weight: normal;
     font-size: 2.0em;
     color: #fff;
 }
 h2 {
-    margin: -5px 0 0;
+    margin: 0;
     font-weight: normal;
     font-size: 1.0em;
     color: #fff;
@@ -42,7 +46,7 @@ h2 {
     font-size: 1em;
 }
 .my-buttons {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
 }
@@ -68,11 +72,15 @@ h2 {
 }
 .footer {
     clear: left;
-    margin 5%;
-    padding: 5%;
-    color: grey;
+    margin: 0 auto;
+    padding-top: 7.5%;
+    padding-bottom: 1%;
+    color: white;
     font-size: .75em;
     text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,.8);
+    background: no-repeat;
+    background-image: linear-gradient(white 0%, white 20%, blue 100%);
 }
 
 @media screen and (max-width: 479px) {
