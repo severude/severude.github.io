@@ -28,6 +28,9 @@ h2 {
     font-size: 1.0em;
     color: #fff;
 }
+.content {
+    min-height: calc(100vh - 123px);
+}
 .logo {
     text-align: center;
 }
