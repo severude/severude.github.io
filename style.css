@@ -21,7 +21,7 @@ body {
     padding-top: 125px;  /* 125px is the height of the header*/
 }
 .wrap{
-    min-height: calc(100vh - 56px);  /* 56px is the height of the footer*/
+/*    min-height: calc(100vh - 56px);   56px is the height of the footer*/
 }
 .main-header {
     position: fixed;
@@ -58,6 +58,7 @@ body {
     float: left;
     width: 35%;
     margin: 5% 7.5%;
+    font-size: 1em;
 }
 .my-buttons a {
     text-decoration: none;
@@ -90,15 +91,6 @@ body {
 	content: " ";
 	display: table;
 	clear: both;
-}
-
-@media screen and (max-width: 479px) {
-    .my-buttons li {
-        font-size: 1em;
-    }
-    .my-buttons li:nth-child(2n + 1) {
-        clear: left;
-    }
 }
 
 @media screen and (min-width: 480px) {
