@@ -21,7 +21,7 @@ body {
     padding-top: 125px;  /* 125px is the height of the header */
 }
 .wrap{
-    min-height: calc(100vh - 56px);   /* 56px is the height of the footer */
+    min-height: calc(100vh - 182px);   /* 56px is the height of the footer */
 }
 .main-header {
     position: fixed;
