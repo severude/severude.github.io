@@ -69,14 +69,26 @@ body {
 }
 .feature_pic{
     width: 100%;
-    margin-right: 5%;
+}
+.mobile_pic {
+    float: right;
+    width: 45%;
+    margin-left: 10%;
 }
 .content {
     text-align: center;
     margin: 0 auto;
-    padding: 3% 5%;
+    padding: 3% 5% 0 5%;
     color: #3a3a3a;
     font-size: 1em;
+}
+#aboutme,
+#portfolio,
+#contact {
+    padding-top: 157px;
+}
+#contact{
+    padding-bottom: 25%;
 }
 .container {
     margin: 0 auto;
@@ -153,12 +165,27 @@ body {
     .feature_pic {
         float: left;
         width: 50%;
+        margin-right: 5%;
         margin-bottom: 2%;
     }
-    .content,
-    .container {
-        padding: 3% 10%;
+    #aboutme,
+    #portfolio,
+    #contact {
+        padding: 124px 0 0 0;  /* 124px is the height of the header */
+        margin: 0;
+    }
+    #portfolio {
+        margin: 0 20%;
+    }
+    #contact{
+        padding-bottom: 25%;
+    }
+    .content {
+        padding: 3% 10% 0 10%;
         max-width: 950px;
+    }
+    .container {
+        padding: 0;
     }
     .my-buttons li {
         font-size: 1.15em;
@@ -167,5 +194,11 @@ body {
     }
     .my-buttons li:nth-child(3n + 1) {
         clear: left;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .content {
+        max-width: 1050px;
     }
 }

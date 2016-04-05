@@ -15,43 +15,63 @@
       ga('send', 'pageview');
     </script>
  </head>
- <body>
+ <body id="top">
     <div class="wrap">
         <header class="main-header clearfix">
             <div class="heading">
-                <a href="index.html">
+                <a href="#top">
                    <h1><strong>Dale Severude</strong></h1>
                    <h2><strong>Web Developer</strong></h2>
                 </a>
             </div>
 			<ul class="main-nav">
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#aboutme">About Me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
         </header>
-        <div class="content">
+        <div class="content clearfix">
             <h3>Welcome to my mobile-friendly website!</h3>
-            <img class="feature_pic" src="webmage.png" alt="website pics">
+            <img class="feature_pic" src="webimage.png" alt="website image">
             <p>Do you have a website?  Would you like to have a website?  Do you have an outdated website that needs an upgrade?</p>
-            <p>My goals are to provide well designed web sites that provide a great user experience and are customized the way that you like.</p>
-            <p>I can create complex WordPress and eCommerce sites or simple sites using only HTML and CSS like this one.  I use the latest design concepts, comply across all device screens and optimize for SEO.  What are your website needs?</p>
+            <p>My goals are to provide well designed web sites that provide a great user experience and are customized the way that you want.</p>
+            <p>I can create complex WordPress and eCommerce sites or simple sites using only HTML and CSS, which is how this site was created.   I use the latest design concepts, responsive mobile design, and SEO optimization.  What are your website needs?</p>
         </div>
-        <div class="container clearfix">
-            <ul class="my-buttons">
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-                <li><a href="https://codex.wordpress.org/">WordPress</a></li>
-                <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
-                <li><a href="http://php.net/manual/en/index.php">PHP</a></li>
-                <li><a href="https://teamtreehouse.com/daleseverude">Treehouse</a></li>
-            </ul>
+        <div id="aboutme">
+            <div class="content clearfix">
+                <h3>About Me</h3>
+                <div class="container">
+                    <p>I have studied online at TeamTreehouse.com where I have completed tracks in <b>Web Design</b>, <b>Front End Web Development</b>, <b>WordPress Development</b>, and in <b>Business</b>.  Click <a href="https://teamtreehouse.com/daleseverude"><b>here</b></a> to view my latest progress.</p>
+                    <p>Below are the web skills that I have learned and and plan to further refine:</p>
+                    <ul class="my-buttons">
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+                        <li><a href="https://codex.wordpress.org/">WordPress</a></li>
+                        <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                        <li><a href="http://php.net/manual/en/index.php">PHP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="content clearfix">
+                <h3>My Portfolio</h3>
+                <img class="mobile_pic" src="mobileview.png" alt="mobile image">
+                <p>I am working on several projects for clients and will provide links to them when completed.</p>
+                <p>Check back soon!</p>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="content clearfix">
+                <h3>Contact Info</h3>
+                <p>Email me at <a href="mailto:dseverude@gmail.com">dseverude@gmail.com</a></p>
+                <p>Tweet me at <a href="http://twitter.com/intent/tweet?screen_name=daleseverude">@daleseverude</a></p>
+            </div>
         </div>
     </div>
     <footer class="footer-content">
         <p>&copy; 2016 Dale Severude</p>
-<!--            <a href="mailto:dseverude@gmail.com">dseverude@gmail.com</a>-->
     </footer>
  </body>
 </html>
