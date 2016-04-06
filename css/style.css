@@ -79,8 +79,9 @@ body {
     margin-left: 10%;
 }
 .profile_pic {
-    width: 25%;
+    width: 30%;
     border-radius: 50%;
+    margin-top: 5%;
 }
 .content {
     text-align: center;
@@ -174,6 +175,9 @@ body {
         width: 50%;
         margin-right: 5%;
         margin-bottom: 2%;
+    }
+    .profile_pic {
+        width: 25%;
     }
     #aboutme,
     #portfolio,
