@@ -22,6 +22,9 @@ h3 {
 a {
     text-decoration: none;
 }
+a:visited {
+    color: blue;
+}
 img {
     max-width: 100%;
 }
@@ -30,8 +33,11 @@ ul
     list-style-type: none;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
     padding-top: 157px;  /* 157px is the height of the header */
+}
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 .wrap{
     min-height: calc(100vh - 213px);   /* 56px is the height of the footer + 157px padding-top = 213px */
