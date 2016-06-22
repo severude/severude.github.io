@@ -6,16 +6,15 @@ h1,
 h2 {
     margin: 0;
     color: #fff;
-    font-weight: normal;
 }
 h1 {
-    font-size: 1.75em;
+    font-size: 1.728em;
 }
 h2 {
-    font-size: .8em;
-    margin: 5px 0 0;
+    font-size: .9em;
 }
 h3 {
+    font-size: 1.44em;
     margin-bottom: 5%;
     color: #333;
 }
@@ -34,13 +33,15 @@ ul
 }
 body {
     font-family: sans-serif;
+    font-size: 1.25em;
     padding-top: 157px;  /* 157px is the height of the header */
 }
 p {
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.25;
 }
 .wrap{
-    min-height: calc(100vh - 213px);   /* 56px is the height of the footer + 157px padding-top = 213px */
+    min-height: calc(100vh - 230px);   /* 73px is the height of the footer + 157px padding-top = 230px */
 }
 .main-header {
     position: fixed;
@@ -54,7 +55,7 @@ p {
     padding-bottom: 2em;
 }
 .heading {
-    margin: 25px 0 0;    
+    margin: 20px 0 0;    
 }
 .main-nav {
     text-align:center;
@@ -67,8 +68,7 @@ p {
 .heading a,
 .main-nav a {
 	display: block;
-    font-weight: 600;
-	padding: 0 10px 0;
+	padding: 0 5px 0;
 }
 .main-nav a {
 	text-align: center;
@@ -90,7 +90,7 @@ p {
     text-align: center;
     margin: 0 auto;
     padding: 3% 5% 0 5%;
-    color: #3a3a3a;
+    color: #333;
     font-size: 1em;
 }
 #aboutme,
@@ -114,7 +114,7 @@ p {
     float: left;
     width: 35%;
     margin: 5% 7.5%;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 .my-buttons a {
     text-align: center;
@@ -141,13 +141,13 @@ p {
     width: 45%;
     margin: 2.5%;
     background-color: whitesmoke;
-    color: #3a3a3a;
+    color: #333;
 }
 #gallery li a p {
     margin: 0;
-    padding: 0 5%;
-    font-size: 0.75em;
-    color: #3a3a3a;
+    padding: 0;
+    font-size: 0.5em;
+    color: #333;
 }
 #gallery li img {
     border-radius: 5px;
@@ -173,18 +173,21 @@ p {
 	clear: both;
 }
 
-@media screen and (min-width: 480px) {
+
+@media screen and (min-width: 460px) {
     .my-buttons li {
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+    #gallery li a p {
+        font-size: 0.75em;
     }
 }
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 740px) {
     body {
-        padding-top: 124px;  /* 124px is the height of the header */
+        padding-top: 135px;  /* 135px is the height of the header */
     }
     .wrap{
-        min-height: calc(100vh - 180px);   /* 56px is the height of the footer + 124px padding-top = 180px */
+        min-height: calc(100vh - 208px);   /* 73px is the height of the footer + 135px padding-top = 208px */
     }
     .heading {
         float: left;
@@ -196,7 +199,7 @@ p {
         margin-right: 7.5%;
 	}
     .main-nav a {
-        padding: 15px 10px;
+        padding: 10px 5px;
     }
     .feature_pic {
         float: left;
@@ -210,13 +213,11 @@ p {
     #aboutme,
     #portfolio,
     #contact {
-        padding: 124px 0 0 0;  /* 124px is the height of the header */
+        padding: 135px 0 0 0;  /* 135px is the height of the header */
         margin: 0;
     }
     #contact {
         margin: 0 20%;
-    }
-    #contact{
         padding-bottom: 10%;
     }
     .content {
@@ -227,7 +228,7 @@ p {
         padding: 0;
     }
     .my-buttons li {
-        font-size: 1.15em;
+        font-size: 1.1em;
         width: 23.333333%;
         margin: 5% 5%;
     }
