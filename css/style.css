@@ -174,7 +174,7 @@ p {
 }
 
 
-@media screen and (min-width: 460px) {
+@media screen and (min-width: 420px) {
     .my-buttons li {
         font-size: 1em;
     }
