@@ -3,7 +3,7 @@
 }
 
 h1,
-h3 {
+h2 {
     margin: 0;
 	color: #f9f9f9;
 }
@@ -11,13 +11,13 @@ h1 {
     font-size: 1.728em;
 }
 h2 {
+    font-size: .833em;
+}
+h3 {
     font-size: 1.2em;
     margin-top: 1%;
     margin-bottom: 5%;
     color: #333;
-}
-h3 {
-    font-size: .833em;
 }
 a {
     text-decoration: none;
@@ -72,10 +72,10 @@ p {
 	display: block;
 	padding: 0 5px 0;
 }
-#top h3 {
+#top h2 {
     transition: color .3s;
 }
-#top h3:hover {
+#top h2:hover {
 	color: lightgrey;
 }
 .main-nav a {
@@ -181,7 +181,7 @@ p {
 }
 
 @media screen and (min-width: 420px) {
-    h2 {
+    h3 {
         font-size: 1.44em;
     }
     p {
