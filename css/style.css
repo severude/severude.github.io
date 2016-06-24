@@ -11,7 +11,7 @@ h1 {
     font-size: 1.728em;
 }
 h2 {
-    font-size: 1.44em;
+    font-size: 1.2em;
     margin-top: 1%;
     margin-bottom: 5%;
     color: #333;
@@ -40,7 +40,7 @@ body {
 }
 p {
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.25;
+    line-height: 1.1;
 }
 .wrap{
     min-height: calc(100vh - 256px);   /* 71px is the height of the footer + 185px padding-top = 256px */
@@ -120,14 +120,14 @@ p {
 }
 .my-buttons li {
     float: left;
-    width: 35%;
-    margin: 5% 7.5%;
-    font-size: 0.75em;
+    width: 40%;
+    margin: 5% 5%;
+    font-size: 0.9em;
 }
 .my-buttons a {
     text-align: center;
     display: block;
-    padding: 10px 10px;
+    padding: 10px 0;
     text-shadow: 0 1px #333;
     border-radius: 6px;
     color: #f9f9f9;
@@ -180,16 +180,27 @@ p {
 	clear: both;
 }
 
-
 @media screen and (min-width: 420px) {
+    h2 {
+        font-size: 1.44em;
+    }
+    p {
+        line-height: 1.25;
+    }
     .my-buttons li {
         font-size: 1em;
+        width: 35%;
+        margin: 5% 7.5%;
     }
     #gallery li a p {
         font-size: 0.75em;
     }
+    .profile_pic {
+        width: 27%;
+    }
 }
-@media screen and (min-width: 740px) {
+
+@media screen and (min-width: 770px) {
     body {
         padding-top: 132px;  /* 132px is the height of the header */
     }
