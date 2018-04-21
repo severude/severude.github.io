@@ -156,6 +156,11 @@ p {
     width: 45%;
     margin: 2.5%;
     background-color: #f0f0f0;
+	height: 7.5em;
+    border-radius: 5px;
+}
+#gallery li:hover {
+    box-shadow: 2px 2px 4px 4px rgba(0,0,0,.2);
 }
 #gallery li a p {
     margin: 0;
@@ -166,9 +171,6 @@ p {
 #gallery li img {
     border-radius: 5px;
     transition: box-shadow .3s;
-}
-#gallery li img:hover {
-    box-shadow: 2px 2px 4px 4px rgba(0,0,0,.2);
 }
 .footer-content {
     margin: 0 auto;
@@ -201,6 +203,9 @@ p {
         width: 35%;
         margin: 5% 7.5%;
     }
+    #gallery li {
+		height: 12.5em;
+    }
     #gallery li a p {
         font-size: 0.75em;
     }
@@ -227,8 +232,6 @@ p {
 	}
     .main-nav a {
         padding: 10px 5px;
-    }
-    .feature_pic {
     }
     .profile_pic {
         width: 25%;
@@ -260,6 +263,7 @@ p {
     }
     #gallery li {
         width: 28.3333%;
+		height: 11em;
     }
     #gallery li:nth-child(3n + 1) {
         clear: left;
