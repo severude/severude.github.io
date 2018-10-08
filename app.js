@@ -10,6 +10,12 @@ const projects = [
 		description: 'LifeChurchMonroe.org - A Church Website that contains a directory, photo galleries, tool-tips and map'
 	},
 	{
+		url: 'https://github.com/severude/Library-Manager',
+		image: 'img/Library-Manager.JPG',
+		alt: 'Library-Manager',
+		description: 'Uses a Sqlite database, Node and Express to search, update and add items to a library app'
+	},
+	{
 		url: 'https://github.com/severude/Gallery-App',
 		image: 'img/Flickr.JPG',
 		alt: 'Gallery-App',
@@ -19,7 +25,7 @@ const projects = [
 		url: 'https://github.com/severude/Gulp-Build',
 		image: 'img/Gulp.jpg',
 		alt: 'Gulp-Build',
-		description: 'A quick and efficient professional workflow using JavaScript, NPM and Node'
+		description: 'A quick and efficient professional workflow using JavaScript, npm and Node'
 	},
 	{
 		url: 'https://github.com/severude/Twitter-Interface',

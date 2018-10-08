@@ -214,7 +214,7 @@ p {
     }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 640px) {
     body {
         padding-top: 132px;  /* 132px is the height of the header */
     }
