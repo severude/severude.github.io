@@ -10,6 +10,12 @@ const projects = [
 		description: 'LifeChurchMonroe.org - A Church Website that contains a directory, photo galleries, tool-tips and map'
 	},
 	{
+		url: 'https://github.com/severude/Course-Rating-API',
+		image: 'img/Postman.JPG',
+		alt: 'Course-Rating',
+		description: 'A REST API which lets users create, edit and rate courses on the back-end using a Mongo database and Express'
+	},
+	{
 		url: 'https://github.com/severude/Library-Manager',
 		image: 'img/Library-Manager.JPG',
 		alt: 'Library-Manager',
