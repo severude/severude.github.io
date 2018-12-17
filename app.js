@@ -4,7 +4,7 @@
 // Projects Gallery data
 const projects = [
 	{
-		url: 'http://lifechurchmonroe.org',
+		url: 'https://lifechurchmonroe.org',
 		image: 'img/LifeChurchMonroe.JPG',
 		alt: 'LifeChurchMonroe.org',
 		description: 'LifeChurchMonroe.org - A Church Website that contains a directory, photo galleries, tool-tips and map'
