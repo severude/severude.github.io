@@ -10,6 +10,12 @@ const projects = [
 		description: 'LifeChurchMonroe.org - A Church Website that contains a directory, photo galleries, tool-tips and map'
 	},
 	{
+		url: 'https://space-station-capstone.herokuapp.com/',
+		image: 'img/ISS.jpg',
+		alt: 'Space Station',
+		description: 'Capstone Project - Tracking the International Space Station using the MERN Stack'
+	},
+	{
 		url: 'https://github.com/severude/Course-Rating-API',
 		image: 'img/Postman.JPG',
 		alt: 'Course-Rating',
