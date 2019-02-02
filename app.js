@@ -13,7 +13,7 @@ const projects = [
 		url: 'https://space-station-capstone.herokuapp.com/',
 		image: 'img/ISS.jpg',
 		alt: 'Space Station',
-		description: 'Capstone Project - Tracking the International Space Station using the MERN Stack'
+		description: 'A Full Stack Application which tracks the International Space Station using Mongo, Express, React and Node'
 	},
 	{
 		url: 'https://github.com/severude/Course-Rating-API',
