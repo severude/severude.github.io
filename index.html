@@ -18,7 +18,7 @@
     </script>
  </head>
  <body id="top">
-    <div class="wrap">
+    <main class="wrap">
         <header class="main-header clearfix">
             <div class="heading">
                 <a href="#top">
@@ -32,30 +32,28 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
         </header>
-        <div class="content clearfix">
+        <section class="content clearfix">
             <h3>What are your Website Needs?</h3>
             <img class="feature_pic" src="img/MobileView.JPG" alt="Mobile view of website">
             <p>Do you have a website?  Would you like to have a website?  Do you have an outdated website that needs an upgrade?</p>
             <p>My goals are to provide well designed web sites that provide a great user experience and are customized the way that you want.</p>
             <p>I create WordPress and eCommerce sites or simple projects using only HTML, CSS, and JavaScript, which is how this site was created.   I use the latest design concepts, responsive web design, and SEO optimization.</p>
-        </div>
-        <div id="portfolio">
+        </section>
+        <section id="portfolio">
             <div class="content clearfix">
                 <h3>My Portfolio</h3>
                 <p>I have completed websites for the following clients below, as well as fun personal projects which are hosted on Github.com</p>
-                <section>
-                    <ul id="gallery">
-                      <li v-for="project in projects">
-                       <a v-bind:href="project.url">
-                       <img v-bind:src="project.image" v-bind:alt="project.alt">
-                        <p>{{project.description}}</p>
+                <ul id="gallery">
+                    <li v-for="project in projects">
+                        <a v-bind:href="project.url">
+                            <img v-bind:src="project.image" v-bind:alt="project.alt">
+                            <p>{{project.description}}</p>
                         </a>
-                      </li>
-                  </ul>
-                </section>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div id="aboutme">
+        </section>
+        <section id="aboutme">
             <div class="content clearfix">
                 <h3>About Me</h3>
                 <p>I have studied online at teamtreehouse.com where I have completed tracks in <b>Web Design</b>, <b>Front End Web Development</b>, <b>WordPress Development</b>, and <b>Business</b>.  My most recent progress can be viewed at <a href="https://teamtreehouse.com/daleseverude">Treehouse</a>.</p>
@@ -68,8 +66,8 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact">
             <div class="content clearfix">
                 <h3>Contact Info</h3>
                 <p>Follow me on Twitter at <a  href="http://twitter.com/daleseverude">@daleseverude</a></p>
@@ -77,15 +75,16 @@
                 <img class="profile_pic" src="img/dale.jpg" alt="Dale Severude">
                 <p>Thanks for dropping by!</p>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <footer class="footer-content">
         <p alt="Website by Dale Severude">&copy; 
 			<script>
 				var year = new Date().getFullYear();
 				document.write(year);
 			</script>
-			Dale Severude</p>
+            Dale Severude
+        </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 	<script src="app.js"></script>
