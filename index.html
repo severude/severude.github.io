@@ -37,12 +37,12 @@
             <img class="feature_pic" src="img/MobileView.JPG" alt="Mobile view of website">
             <p>Do you have a website?  Would you like to have a website?  Do you have an outdated website that needs an upgrade?</p>
             <p>My goals are to provide well designed web sites that provide a great user experience and are customized the way that you want.</p>
-            <p>I create WordPress and eCommerce sites or simple projects using only HTML, CSS, and JavaScript, which is how this site was created.   I use the latest design concepts, responsive web design, and SEO optimization.</p>
+            <p>I am a Front-end Web Developer that uses the Full Stack for Front-end and Back-end Web Development.  I use the latest design concepts, responsive web design, and SEO optimization.</p>
         </section>
         <section id="portfolio">
             <div class="content clearfix">
-                <h3>My Portfolio</h3>
-                <p>I have completed websites for the following clients below, as well as fun personal projects which are hosted on Github.com</p>
+                <h3>My Full Stack Portfolio</h3>
+                <p>I have recently completed a Full Stack JavaScript Tech Degree from <a href="https://teamtreehouse.com/daleseverude">Treehouse</a> by completing the following 12 projects:</p>
                 <ul id="gallery">
                     <li v-for="project in projects">
                         <a v-bind:href="project.url">
@@ -53,15 +53,29 @@
                 </ul>
             </div>
         </section>
+        <section id="websites">
+            <div class="content clearfix">
+                <h3>Other Projects</h3>
+                <p>Here are some other websites and projects I have developed.</p>
+                <ul id="sites">
+                    <li v-for="site in sites">
+                        <a v-bind:href="site.url">
+                            <img v-bind:src="site.image" v-bind:alt="site.alt">
+                            <p>{{site.description}}</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <section id="aboutme">
             <div class="content clearfix">
                 <h3>About Me</h3>
-                <p>I have studied online at teamtreehouse.com where I have completed tracks in <b>Web Design</b>, <b>Front End Web Development</b>, <b>WordPress Development</b>, and <b>Business</b>.  My most recent progress can be viewed at <a href="https://teamtreehouse.com/daleseverude">Treehouse</a>.</p>
-                <p>Below are my top Workflow Tools:</p>
+                <p>I have studied online at teamtreehouse.com where I have completed tracks in <b>Web Design</b>, <b>Front End Web Development</b>, and <b>Full Stack JavaScript</b>.</p>
+                <p>Below are my top Skills:</p>
                 <div class="container">
                     <ul class="my-buttons">
-                        <li v-for="tool in tools">
-                            <a v-bind:href="tool.url">{{tool.skill}}</a>
+                        <li v-for="skill in skills">
+                            <a v-bind:href="skill.url">{{skill.skill}}</a>
                         </li>
                     </ul>
                 </div>
@@ -70,10 +84,9 @@
         <section id="contact">
             <div class="content clearfix">
                 <h3>Contact Info</h3>
-                <p>Follow me on Twitter at <a  href="http://twitter.com/daleseverude">@daleseverude</a></p>
-                <p>If you would like to contact me regarding your website needs, I can be reached at <a href="mailto:dseverude@gmail.com">dseverude@gmail.com</a></p>
+                <p>I can be reached on Twitter at <a  href="http://twitter.com/daleseverude">@daleseverude</a> or email me at <a href="mailto:dseverude@gmail.com">dseverude@gmail.com</a></p>
                 <img class="profile_pic" src="img/dale.jpg" alt="Dale Severude">
-                <p>Thanks for dropping by!</p>
+                <p>Thanks for visting my site!</p>
             </div>
         </section>
     </main>
