@@ -106,7 +106,7 @@ p {
     color: #333;
     font-size: 1em;
 }
-#aboutme,
+#skills,
 #portfolio,
 #contact {
     padding-top: 185px;  /* 185px is the height of the header */
@@ -243,7 +243,7 @@ p {
     .profile_pic {
         width: 25%;
     }
-    #aboutme,
+    #skills,
     #portfolio,
     #contact {
         padding: 132px 0 0 0;  /* 132px is the height of the header */
