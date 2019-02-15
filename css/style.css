@@ -177,6 +177,10 @@ p {
     border-radius: 5px;
     transition: box-shadow .3s;
 }
+.hidden {
+	display: none;
+}
+
 .footer-content {
     margin: 0 auto;
     padding-top: 1em;

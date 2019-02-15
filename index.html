@@ -35,7 +35,7 @@
         <section class="content clearfix">
             <h3>My Portfolio Website</h3>
             <img class="feature_pic" src="img/MobileView.JPG" alt="Mobile view of website">
-            <p>Welcome to my portfolio website!  This is where I keep links for viewing my latest work and projects.</p>
+            <p>Welcome to my portfolio website!  This is where I save links for viewing my latest work and projects.</p>
             <p>I am a Front-end Web Developer that uses the Full Stack for both Front-end and Back-end Web Development.</p>
             <p>My goals are to provide well designed web sites that provide a great user experience and are customized the way that you want.  I use the latest design concepts, responsive web design, and SEO optimization.</p>
         </section>
@@ -47,8 +47,14 @@
                     <li v-for="project in projects">
                         <a v-bind:href="project.url">
                             <img v-bind:src="project.image" v-bind:alt="project.alt">
-                            <p>{{project.description}}</p>
+                            <p><b>{{project.description}}</b></p>
+                            <p>{{project.skills}}</p>
                         </a>
+                        <p class="hidden">{{project.title}}</p>
+                        <p class="hidden">{{project.usage}}</p>
+                        <p class="hidden">{{project.skills}}</p>
+                        <p class="hidden">{{project.overview}}</p>
+                        <p class="hidden">{{project.github}}</p>
                     </li>
                 </ul>
             </div>
@@ -98,6 +104,7 @@
             Dale Severude
         </p>
     </footer>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 	<script src="app.js"></script>
  </body>
