@@ -10,7 +10,7 @@ const projects = [
 		description: 'Unit 12: International Space Station Tracker',
 		title: 'Unit 12: Create your own Full Stack App with React',
 		skills: 'Full Stack App',
-		overview: 'This capstone project uses three APIs to track the International Space Station on a map along with current weather conditions below.  Users site locations are tracked in a database.',
+		overview: 'This capstone project uses three APIs to track the International Space Station on a map along with current weather conditions below.  Users site locations are tracked in a database.  Uses the MongoDB, Express, React and Node stack.',
 		github: 'https://github.com/severude/Space-Station'
 	},
 	{
@@ -20,7 +20,7 @@ const projects = [
 		description: 'Unit 11: Course Rating API',
 		title: 'Unit 11: Build a REST API',
 		skills: 'REST API',
-		overview: 'Build a course rating API that will provide a way for users to administer a school database containing information about courses. Verify REST API routes with Postman.',
+		overview: 'Build a course rating API that will provide a way for users to administer a school database containing information about courses. Verify REST API routes with Postman.  Uses Express and MongoDB.',
 		github: 'https://github.com/severude/Course-Rating-API'
 	},
 	{
@@ -30,7 +30,7 @@ const projects = [
 		description: 'Unit 10: Library Manager',
 		title: 'Unit 10: Build a Library Database Manager',
 		skills: 'Sqlite web application',
-		overview: 'Create a web application for listing, adding, updating, and deleting books in a library application.',
+		overview: 'Create a web application for listing, adding, updating, and deleting books in a library application.  Uses Express and Sqlite.',
 		github: 'https://github.com/severude/Library-Manager'
 	},
 	{
@@ -70,7 +70,7 @@ const projects = [
 		description: 'Unit 6: Data-mining application',
 		title: 'Unit 6: Build a data-mining application',
 		skills: 'Command line app',
-		overview: 'Create a command-line application to read a web page, extract information, and store the data in a text file.',
+		overview: 'Create a command-line application to read a web page, extract information, and store the data in a text file.  Uses npm and Node.',
 		github: 'https://github.com/severude/Content-Scraper'
 	},
 	{
