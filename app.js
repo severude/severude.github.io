@@ -10,7 +10,7 @@ const projects = [
 		description: 'Unit 12: International Space Station Tracker',
 		title: 'Unit 12: Create your own Full Stack App with React',
 		skills: 'Full Stack App',
-		overview: 'This capstone project uses three APIs to track the International Space Station on a map along with current weather conditions below.  Users site locations are tracked in a database.  Uses the MongoDB, Express, React and Node stack.',
+		overview: 'This capstone project uses three APIs to track the International Space Station on a map along with current weather conditions below.  Users site locations are tracked in a database.  MongoDB, Express, React, Node',
 		github: 'https://github.com/severude/Space-Station'
 	},
 	{
@@ -20,7 +20,7 @@ const projects = [
 		description: 'Unit 11: Course Rating API',
 		title: 'Unit 11: Build a REST API',
 		skills: 'REST API',
-		overview: 'Build a course rating API that will provide a way for users to administer a school database containing information about courses. Verify REST API routes with Postman.  Uses Express and MongoDB.',
+		overview: 'Build a course rating API that will provide a way for users to administer a school database containing information about courses. Verify REST API routes with Postman.  Express, MongoDB',
 		github: 'https://github.com/severude/Course-Rating-API'
 	},
 	{
