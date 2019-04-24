@@ -131,7 +131,7 @@ const sites = [
 		url: 'https://lifechurchmonroe.org',
 		image: 'img/LifeChurchMonroe.JPG',
 		alt: 'LifeChurchMonroe.org',
-		description: 'LifeChurchMonroe.org - A large WordPress site with over 20 pages built out'
+		description: 'LifeChurchMonroe.org - A large WordPress site with over 20 pages'
 	},
 	{
 		url: 'https://severude.github.io/weather-api',
