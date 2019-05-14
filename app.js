@@ -6,107 +6,107 @@ const projects = [
 	{
 		url: 'https://space-station-capstone.herokuapp.com',
 		image: 'img/ISS.jpg',
-		alt: 'Space Station',
+		alt: 'Space Station Full Stack App',
 		description: 'Unit 12: International Space Station Tracker',
 		title: 'Unit 12: Create your own Full Stack App with React',
-		skills: 'Full Stack App',
+		skills: 'Full Stack App built with React',
 		overview: 'This capstone project uses three APIs to track the International Space Station on a map along with current weather conditions below.  Users site locations are tracked in a database.  MongoDB, Express, React, Node',
 		github: 'https://github.com/severude/Space-Station'
 	},
 	{
 		url: 'http://localhost:5000',
 		image: 'img/Postman.JPG',
-		alt: 'Course-Rating',
+		alt: 'Course Rating REST API',
 		description: 'Unit 11: Course Rating API',
 		title: 'Unit 11: Build a REST API',
-		skills: 'REST API',
+		skills: 'REST API using MongoDB and Express',
 		overview: 'Build a course rating API that will provide a way for users to administer a school database containing information about courses. Verify REST API routes with Postman.  Express, MongoDB',
 		github: 'https://github.com/severude/Course-Rating-API'
 	},
 	{
 		url: 'http://localhost:3000',
 		image: 'img/Library-Manager.JPG',
-		alt: 'Library-Manager',
+		alt: 'Sqlite Library Manager',
 		description: 'Unit 10: Library Manager',
 		title: 'Unit 10: Build a Library Database Manager',
-		skills: 'Sqlite web application',
+		skills: 'Sqlite web application using CRUD opeations',
 		overview: 'Create a web application for listing, adding, updating, and deleting books in a library application.  Uses Express and Sqlite.',
 		github: 'https://github.com/severude/Library-Manager'
 	},
 	{
 		url: 'http://localhost:3000',
 		image: 'img/Flickr.JPG',
-		alt: 'Gallery-App',
+		alt: 'Photo Gallery Single Page Application',
 		description: 'Unit 9: Photo Gallery App',
 		title: 'Unit 9: Build a React Photo Gallery App',
-		skills: 'React app',
+		skills: 'Single Page Application using React Router',
 		overview: 'Build a fast and lightweight photo gallery application to access Flickr.  To use this app you must provide your own your own Flickr API Key Tokens.',
 		github: 'https://github.com/severude/Gallery-App'
 	},
 	{
 		url: 'This is a command line script',
 		image: 'img/Gulp.jpg',
-		alt: 'Gulp-Build',
+		alt: 'Gulp Workflow',
 		description: 'Unit 8: Build Workflow',
 		title: 'Unit 8: Create a Build Workflow',
-		skills: 'Gulp scripts',
+		skills: 'Gulp workflow for building a website',
 		overview: 'Implement a quick and efficient professional workflow to compile, concatenate, minify, optimize and copy a given website into the dist folder.',
 		github: 'https://github.com/severude/Gulp-Build'
 	},
 	{
 		url: 'http://localhost:3000',
 		image: 'img/Twitter.jpg',
-		alt: 'Twitter-Interface',
+		alt: 'Twitter Interface Web Server',
 		description: 'Unit 7: Twitter Interface',
 		title: 'Unit 7: Build a Twitter Interface',
-		skills: 'Node Web Server',
+		skills: 'Web Server using Node and Express',
 		overview: 'Build a Node.js and Express-powered Web Site that can access your Twitter account. To use this app you must provide your own your own personal Twitter Keys and Access Tokens.',
 		github: 'https://github.com/severude/Twitter-Interface'
 	},
 	{
 		url: 'This is a command line script',
 		image: 'img/Content-Scraping.JPG',
-		alt: 'Content-Scraper',
+		alt: 'Content Scraping App',
 		description: 'Unit 6: Data-mining application',
 		title: 'Unit 6: Build a data-mining application',
-		skills: 'Command line app',
+		skills: 'Command line app to scrape a website',
 		overview: 'Create a command-line application to read a web page, extract information, and store the data in a text file.  Uses npm and Node.',
 		github: 'https://github.com/severude/Content-Scraper'
 	},
 	{
 		url: 'https://severude.github.io/Employee-Directory',
 		image: 'img/EmployeeDirectory.JPG',
-		alt: 'Employee-Directory',
+		alt: 'Employee Directory',
 		description: 'Unit 5: Employee Directory',
 		title: 'Unit 5: Use an API to create an Employee Directory',
-		skills: 'AJAX API calls',
+		skills: 'AJAX API calls to build a directory',
 		overview: 'Create an employee directory by communicating with a third-party API.  Add a clickable modal to allow viewing of further employee details.',
 		github: 'https://github.com/severude/Employee-Directory'
 	},
 	{
 		url: 'https://severude.github.io/Tic-Tac-Toe',
 		image: 'img/TicTacToe.JPG',
-		alt: 'Tic-Tac-Toe',
+		alt: 'Tic-Tac-Toe Game',
 		description: 'Unit 4: Tic-Tac-Toe App',
 		title: 'Unit 4: Build a Tic-Tac-Toe App',
-		skills: 'Object-Oriented JavaScript',
+		skills: 'Object-Oriented JavaScript to build a Game',
 		overview: 'Use JavaScript Object-Oriented Programming to create a Tic-Tac-Toe game against the computer.',
 		github: 'https://github.com/severude/Tic-Tac-Toe'
 	},
 	{
 		url: 'https://severude.github.io/Interactive-Form',
 		image: 'img/InteractiveForm.JPG',
-		alt: 'Interactive-Form',
+		alt: 'Interactive Form',
 		description: 'Unit 3: Interactive Form',
 		title: 'Unit 3: Build an Interactive Form',
-		skills: 'Processing HTML Forms',
+		skills: 'HTML Form Validation and Interaction',
 		overview: 'Enhance a given form so that it is engaging, interactive, easy to use and validates correctly.',
 		github: 'https://github.com/severude/Interactive-Form'
 	},
 	{
 		url: 'https://severude.github.io/Pagination-Filter',
 		image: 'img/PaginationFilter.JPG',
-		alt: 'Pagination-Filter',
+		alt: 'Pagination Filter',
 		description: 'Unit 2: Pagination and Content Filter',
 		title: 'Unit 2: Pagination and Content Filter',
 		skills: 'DOM Programming',
@@ -116,10 +116,10 @@ const projects = [
 	{
 		url: 'https://severude.github.io/Quote-Generator',
 		image: 'img/QuoteGenerator.JPG',
-		alt: 'Quote-Generator',
+		alt: 'Quote Generator',
 		description: 'Unit 1: Random Quote Generator',
 		title: 'Unit 1: Build a Random Quote Generator',
-		skills: 'HTML, CSS, JavaScript',
+		skills: 'JavaScript Programming',
 		overview: 'Create a program which displays a randomly selected quote each time the user clicks a button.',
 		github: 'https://github.com/severude/Quote-Generator'
 	}
@@ -136,13 +136,13 @@ const sites = [
 	{
 		url: 'https://severude.github.io/weather-api',
 		image: 'img/Weather.JPG',
-		alt: 'weather-api',
+		alt: 'weather api app',
 		description: 'An app to retrieve the current weather conditions and forecast for your area'
 	},
 	{
 		url: 'https://severude.github.io/state-capitals',
 		image: 'img/50-States.JPG',
-		alt: 'state-capitals',
+		alt: 'state capital quiz',
 		description: 'A quiz for testing your knowledge of United States state capitals'
 	}
 ];
